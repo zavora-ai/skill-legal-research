@@ -1,12 +1,11 @@
 ---
 name: legal-research
 description: Orchestrate legal research — search case law, legislation, and regulations across US, UK, EU, Africa, Canada, and Australia. Screen entities against sanctions lists. Use when researching case law, finding legislation, checking regulations, screening for sanctions, or verifying legal compliance across jurisdictions.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-legal server connected (free public legal databases).
 allowed-tools: [search_cases, get_case, search_uk_legislation, get_uk_legislation, search_eu_legislation, get_eu_document, search_federal_register, get_federal_register_document, screen_entity, search_sanctions, get_sanctions_record, list_supported_jurisdictions, list_supported_sources, get_coverage_status]
-tags: [business, legal, compliance, sanctions, legislation, case-law]
 metadata:
+  category: mcp-enhancement
   author: Zavora AI
   mcp-server: mcp-legal
   success-criteria:
